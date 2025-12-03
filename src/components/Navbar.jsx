@@ -2,9 +2,9 @@ import { navbarLinks } from "../constants";
 
 const Navbar = () => {
     return (
-        <header className="flex items-center justify-between h-13 mx-10">
+        <header className="flex items-center justify-between h-13 mx-10 absolute inset-0">
             <img src="/logo.svg" className="h-7" />
-            <ul className="text-white text-2xs flex gap-3">
+            <ul className="hidden md:flex text-white text-2xs gap-3">
                 {navbarLinks.map((item, index) => (
                     <li key={index}>
                         <button>{item.label}</button>

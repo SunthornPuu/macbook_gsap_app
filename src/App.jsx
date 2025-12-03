@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <main className="bg-black h-auto">
+    <main className="bg-black h-screen p-0 m-0 w-screen fixed">
       <Navbar />
       <Hero />
     </main>
