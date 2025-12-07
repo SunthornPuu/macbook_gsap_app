@@ -7,3 +7,31 @@ p {
 body {
     overflow: hidden;
 }
+
+.heroSection {
+    @apply h-full m-6 md:m-20 flex flex-col items-center justify-center;
+}
+
+.buyBut {
+    @apply rounded-4xl flex justify-center items-center bg-blue-500 w-20 h-10 text-white text-xl hover:cursor-pointer hover:text-2xl hover:w-22 hover:h-11 transition-all;
+}
+
+.navBar {
+    @apply flex items-center justify-between h-13 mx-10 absolute inset-0 z-1;
+}
+
+.viewerSection {
+    @apply m-6 md:m-20 h-screen flex flex-col gap-5;
+}
+
+.controls {
+    @apply flex justify-center gap-5;
+}
+
+.butSet {
+    @apply bg-neutral-700 rounded-3xl w-25 h-12 flex items-center justify-center gap-2;
+}
+
+.butSet div {
+    @apply rounded-3xl w-7 h-7 flex justify-center items-center text-sm hover:cursor-pointer;
+}
